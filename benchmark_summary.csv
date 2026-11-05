@@ -1,0 +1,17 @@
+BIG O PERFORMANCE ANALYSIS REPORT
+Generated: 2026-11-04 19:18:24.134617
+
+Overview
+This benchmark compares two algorithms that count pairs whose sums equal a target value.
+Algorithm 1 uses nested loops and has O(n²) complexity.
+Algorithm 2 uses a dictionary and has O(n) complexity.
+
+Performance Statistics
+Average O(n²) Runtime,0.612075 seconds
+Average O(n) Runtime,0.000503 seconds
+Largest Observed Speedup,1566.06x
+Input Size with Largest Speedup,10000
+
+Conclusion
+Results demonstrate that the O(n) implementation scales significantly better as input size increases.
+"As datasets grow, the runtime gap between O(n²) and O(n) becomes increasingly substantial."
